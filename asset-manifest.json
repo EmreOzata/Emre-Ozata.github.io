@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Emre-Ozata.github.io/static/css/main.331a2edd.css",
-    "main.js": "/Emre-Ozata.github.io/static/js/main.5f1d1d80.js",
+    "main.js": "/Emre-Ozata.github.io/static/js/main.27292900.js",
     "index.html": "/Emre-Ozata.github.io/index.html",
     "main.331a2edd.css.map": "/Emre-Ozata.github.io/static/css/main.331a2edd.css.map",
-    "main.5f1d1d80.js.map": "/Emre-Ozata.github.io/static/js/main.5f1d1d80.js.map"
+    "main.27292900.js.map": "/Emre-Ozata.github.io/static/js/main.27292900.js.map"
   },
   "entrypoints": [
     "static/css/main.331a2edd.css",
-    "static/js/main.5f1d1d80.js"
+    "static/js/main.27292900.js"
   ]
 }
