@@ -30,7 +30,7 @@ function Projects() {
 
   return (
     <Container>
-      <h1>My Projects</h1>
+      <h1>Mina projekt</h1>
       <Row>
         {myProjects.map((proj, idx) => (
           <Col md={4} key={idx} className="project-card">

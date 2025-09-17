@@ -7,10 +7,10 @@ function Header() {
     <header className="App-header">
     <h1>Emre Özata</h1>
     <nav className="App-nav">
-     <Link to="/" className="nav-link">About</Link>
-      <Link to="/projects" className="nav-link">Projects</Link>
-      <Link to="/skills" className="nav-link">Skills</Link>
-      <Link to="/contact" className="nav-link">Contact</Link>
+     <Link to="/" className="nav-link">Om mig</Link>
+      <Link to="/projects" className="nav-link">Projekt</Link>
+      <Link to="/skills" className="nav-link">Färdigheter</Link>
+      <Link to="/contact" className="nav-link">Kontakt</Link>
   </nav>
     </header>
   );
