@@ -8,21 +8,24 @@ function Projects() {
     {
       title: "Prototyp för ett administrativt system",
       description: "En prototyp av ett administrativt skolystem som bygger på att lära sig MVC mönstret, utvecklades i Java.",
-      reportLink: "/assets/reports/admin-system.pdf",
+      reportLink: process.env.PUBLIC_URL + "/docs/Obj-orientering-Projekt-rapport - Emre Özata.pdf",
       demoLink: "https://www.youtube.com/watch?v=DqWJmNmeX9A",
     },
     {
       title: "Sports Application",
-      description: "En sportsapplikation som utvecklades i Kotlin.",
-      reportLink: "/assets/reports/sports-app.pdf",
-      demoLink: "https://youtu.be/exampleVideo2",
+      description: "En sportsapplikation som utvecklades i Kotlin. Denna applikation visar matcher inom utvalda sportsligor.",
+     reportLink: process.env.PUBLIC_URL + "/docs/rapport_klientutveckling.pdf",
     },
     {
       title: "Cleaning Manager",
       description: "Utvecklades där vi skulle arbeta likt ett team med backend. Projektet utfördes enligt SCRUM metodik.",
-      reportLink: "/assets/reports/cleaning-manager.pdf",
-      demoLink: "https://youtu.be/exampleVideo3",
+      reportLink: process.env.PUBLIC_URL + "/docs/ProjektPVT.pdf",
     },
+    {
+      title: "Databashantering",
+      description: "Ett projekt där vi skulle strukturera upp en databas som kan hantera lärare och elever.",
+      reportLink: process.env.PUBLIC_URL + "/docs/Rapport_Databasteknik.pdf",
+    }
   ];
 
   return (
